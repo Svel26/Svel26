@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Sven Jansen | Portfolio</title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav>
+    <h1>Sven Jansen</h1>
+    <ul class="navigation">
+        <li><a href="#about" class="nav-link">Over</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projecten</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="index.html" class="nav-link">English</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+    </button>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="about">
+    <img
+            src="assets/images/User.png"
+            alt="User"
+            loading="lazy"
+            class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Mijn naam is Sven</h2>
+        <p class="bio-text">
+            Ik ben een gepassioneerde 17-jarige software developer.
+            Ik volg mijn opleiding aan SintLucas in Eindhoven, Nederland.
+        </p>
+    </div>
+</section>
+
+<!-- More about -->
+<section class="more-about">
+    <h2>Meer over mij</h2>
+    <p>
+        Ik ben Sven Jansen, momenteel tweedejaars student en studeer Software development op SintLucas.
+        Mijn levenslange interesse in technologie is de drijvende kracht achter mijn passie voor het creëren van een betere toekomst.
+        Mijn doel is om bij te dragen aan een wereld waarin mijn toekomstige kinderen goed kunnen leven, een wereld die beter is dan nu.
+    </p>
+    <p>
+        Ik ben trots op mijn sociale karakter en wil altijd graag deelnemen aan discussies over technologie, gamen en mijn andere interesses.
+    </p>
+    <p>
+        Mijn focus ligt op de ontwikkeling van embedded software, en ik ben het meest ervaren in het ontwikkelen van games.
+        Tijdens mijn eerste jaar in software development heb ik met succes een functionele VR-game gemaakt, waarin ik mijn toewijding en creativiteit liet zien.
+        Daarnaast heb ik een multiplayer-game test uitgevoerd, waarbij ik de mogelijkheden onderzocht om een basis multiplayer-ervaring te creëren.
+    </p>
+</section>
+
+<!-- Skills section -->
+<section class="skills" id="skills">
+    <h2 class="skill-header">Mijn Top Skills</h2>
+
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img
+                    src="assets/icons/icon-unity.svg"
+                    alt="Unity"
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="assets/icons/icon-Csharp.svg"
+                    alt="C#"
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+            <img
+                    src="assets/icons/icon-Axd.svg"
+                    alt="XD"
+                    loading="lazy"
+                    class="icon icon-card"
+            />
+        </div>
+    </div>
+</section>
+
+<!-- Projects section -->
+<section class="projects" id="projects">
+    <h2 class="projects-title">Recente projecten</h2>
+    <div class="projects-container">
+        <div class="project-container project-card">
+            <img
+                    src="assets/images/VRgame.png"
+                    alt="VRgame"
+                    loading="lazy"
+                    class="project-pic"
+            />
+            <h3 class="project-title">VR game</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+                    src="assets/images/Webshop.png"
+                    alt="Webshop"
+                    loading="lazy"
+                    class="project-pic"
+            />
+            <h3 class="project-title">Webshop</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+                    src="assets/images/PortDesign.png"
+                    alt="Portfolio Design"
+                    loading="lazy"
+                    class="project-pic"
+            />
+            <h3 class="project-title">Portfolio Design</h3>
+            <p class="project-details">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                ratione vel inventore labore commodi modi quos culpa aut saepe!
+                Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact section -->
+<section class="contact" id="contact">
+    <h2>Neem contact op</h2>
+    <div class="contact-form-container">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xyylnggw" method="POST">
+                <div class="form-control">
+                    <label for="name">naam</label>
+                    <input
+                            type="text"
+                            id="name"
+                            name="sender-name"
+                            placeholder="Vul je naam in"
+                            class="input-field"
+                            required
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                            type="email"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Vul jou Email in"
+                            class="input-field"
+                            required
+                    />
+                </div>
+                <div class="form-control">
+                    <label for="message">Bericht</label>
+                    <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Typ hier je bericht"
+                            name="message"
+                            class="input-field"
+                            required
+                    ></textarea>
+                </div>
+                <input
+                        type="submit"
+                        value="Verstuur"
+                        id="submit-btn"
+                        class="submit-btn"
+                />
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Social accounts - Fixed to the right -->
+<div class="socials">
+    <a href="https://www.instagram.com/sven.jansen06/" target="_blank"
+    ><img
+            src="assets/icons/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+    /></a>
+    <a href="https://www.linkedin.com/in/sven-jansen06/" target="_blank"
+    ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+    /></a>
+    <a href="https://github.com/Svel26" target="_blank"
+    ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+    /></a>
+</div>
+
+<!-- Scroll to top -->
+<i class="scroll-up" id="scroll-up"
+><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+/></i>
+
+<!-- Footer section -->
+<footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">
+    </p>
+</footer>
+
+<!-- Website scripts -->
+<script src="assets/js/app.js"></script>
+
+<!-- Ion icons scripts -->
+<script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+</body>
+</html>
